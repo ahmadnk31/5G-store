@@ -22,7 +22,7 @@ export function CartItem({data}:CartItemProps){
                     src={data.images[0].url}
                     alt={data.name}
                     fill
-                    className="object-cover object-center"
+                    className="object-contain object-center"
                 />
             </div>
             <div className="relative ml-4 flex flex-1 flex-col justify-between sm:ml-6">
