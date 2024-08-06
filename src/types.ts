@@ -1,4 +1,4 @@
-import { int } from "three/examples/jsm/nodes/Nodes.js";
+
 
 export interface Billboard {
     id: string;
