@@ -15,3 +15,4 @@ export const Button=React.forwardRef<HTMLButtonElement,ButtonProps>(({children,c
         </button>
     )
 })
+Button.displayName="Button"
