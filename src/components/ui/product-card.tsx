@@ -47,7 +47,7 @@ export function ProductCard({data}:ProductCardProps){
                 src={data?.images[0]?.url}
                 alt={data.name}
                 fill
-                className="object-cover"
+                className="object-contain"
                 />
                 <div className="opacity-0 group-hover:opacity-100 absolute w-full px-6 bottom-5 transition">
                     <div className="flex gap-x-6 justify-center">
