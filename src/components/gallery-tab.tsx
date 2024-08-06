@@ -13,7 +13,7 @@ export function GalleryTab({image}:{image:ImageType}){
                             src={image.url}
                             alt={image.url}
                             fill
-                            className="object-cover object-center"
+                            className="object-contain object-center"
                             />
                         </span>
                         <span className={cn('absolute inset-0 rounded-md ring-2 ring-offset-2',
