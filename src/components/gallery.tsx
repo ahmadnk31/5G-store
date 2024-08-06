@@ -28,7 +28,7 @@ export function Gallery({images}:GalleryProps){
                             src={image.url}
                             alt={image.url}
                             fill
-                            className="object-cover object-center"
+                            className="object-contain object-center"
                             />
                         </div>
                     </TabPanel>
